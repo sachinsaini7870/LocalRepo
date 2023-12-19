@@ -1,0 +1,130 @@
+    1  git --version
+    2  pwd
+    3  git config --global user.name "SACHIN"
+    4  git config --global user.email "sachinsaini7870@gmail.com"
+    5  git config --list
+    6  pwd
+    7  ls
+    8  cd HTML
+    9  ls
+   10  cd Git/
+   11  ls
+   12  cd LocalRepo/
+   13  ls
+   14  git status
+   15  git add .
+   16  git status
+   17  git commit -m "Add Initial files."
+   18  git status
+   19  git remote add origin https://github.com/sachinsaini7870/LocalRepo.git
+   20  git remote -v
+   21  git branch
+   22  git branch -M master
+   23  git branch
+   24  git branch -M main
+   25  git branch
+   26  git push -u origin main
+   27  pwd
+   28  touch README.md
+   29  git status
+   30  git add .
+   31  git push
+   32  git status
+   33  git commit -m "Add Readme file."
+   34  git push
+   35  git add .
+   36  git commit -m "Fixed Readme"
+   37  git push
+   38  git branch
+   39  git checkout -b feature1
+   40  git branch
+   41  git checkout -b feature2
+   42  git branch
+   43  git brach -d feature2
+   44  git branch -d feature2
+   45  git checkout main
+   46  git branch
+   47  git branch -d feature2
+   48  git branch
+   49  git checkout feature1
+   50  git status
+   51  git status
+   52  git add .
+   53  git commit -m "Add new feature"
+   54  git status
+   55  git checkout main
+   56  git branch
+   57  git checkout feature1
+   58  git push origin feature1
+   59  git diff main
+   60  git checkout main
+   61  git diff feature1
+   62  git status
+   63  git add .
+   64  git commit -m "Fixed index Paragraph"
+   65  git status
+   66  git push origin main
+   67  git diff feature1
+   68  git checkout feature1
+   69  git status
+   70  git add .
+   71  git commit -m "Fixing Previous Paragraph"
+   72  git push origin feature1
+   73  git checkout main
+   74  git branch
+   75  git branch -d feature1
+   76  git branch -D feature1
+   77  git branch
+   78  git checkout -b feature1
+   79  git branch
+   80  git status
+   81  git add .
+   82  git commit -m "Add new Feature"
+   83  git push origin feature1
+   84  git branch
+   85  git checkout main
+   86  git pull origin main
+   87  git add .
+   88  git commit -m "Add button"
+   89  git checkout feature1
+   90  git add .
+   91  git commit -m "
+Add Dropdown"
+   92  git diff main
+   93  git merge main
+   94  git add .
+   95  git commit -m "Add both features"
+   96  git status
+   97  git diff mian
+   98  git diff main
+   99  git checkout main
+  100  git merge feature1
+  101  git push
+  102  git reset index.html
+  103  git add .
+  104  git commit -m "Delete Button"
+  105  git status
+  106  git reset HEAD~1
+  107  git log
+  108  git log
+  109  git pull origin main
+  110  git log
+  111  git log
+  112  git reset 4b69f39d6f4f6c5c3c17a259cdd73d3a6c022bea
+  113  git status
+  114  git log
+  115  git reset --hard 4b69f39d6f4f6c5c3c17a259cdd73d3a6c022bea
+  116  git log
+  117  pwd
+  118  cd ..
+  119  pwd
+  120  ls
+  121  rem LocalRepo/
+  122  rm -rf LocalRepo/
+  123  ls
+  124  clear
+  125  git clone https://github.com/sachinsaini7870/LocalRepo.git
+  126  cd LocalRepo/
+  127  git log
+  128  pwd
+  129  history > GitBash_history.txt
